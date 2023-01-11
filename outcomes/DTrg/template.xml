@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+        <content>
+            <p>First, recall the derivatives for the sine and cosine functions.</p>
+            <p><m mode="display"> \frac{d}{dx}\sin(x) = </m></p>
+            <p><m mode="display"> \frac{d}{dx}\cos(x) = </m></p>
+        </content>
+        <outtro>
+            <p><m mode="display"> \frac{d}{dx}\sin(x) = \cos(x) </m></p>
+            <p><m mode="display"> \frac{d}{dx}\cos(x) = -\sin(x) </m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Use your knowledge of trigonometric identities, 
+            the quotient rule, and the derivatives from the previous task 
+            to prove that</p>
+            <p><m mode="display"> \frac{d}{dx} {{f}} = {{df}} </m></p>
+        </content>
+        <outtro>
+            <p><m mode="display">
+            \frac{d}{dx} {{f}} 
+            = [\text{ ... insert your proof here ... }] = {{df}}
+            </m></p>
+        </outtro>
+    </knowl>
+</knowl>

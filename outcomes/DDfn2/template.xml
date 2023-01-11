@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Let <m>f(x) = {{f}}</m>. 
+        Use the definition of the derivative as a limit 
+        and your knowledge of some special trigonometric limits 
+        (see the LSTr outcome) to prove that</p>
+        <p><m mode="display">
+            f'(x) = {{df}}
+        </m></p>
+    </content>
+    <outtro>
+        <p><m mode="display">
+        f'(x) = \lim_{h \to 0} \frac{ f(x+h) - f(x) }{h} 
+        = [\text{ ... insert your proof here ... }] = {{df}}
+        </m></p>
+    </outtro>
+</knowl>

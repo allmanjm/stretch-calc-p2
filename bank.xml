@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank xmlns="https://checkit.clontz.org" version="0.2">
+    <title>Stretch Calculus: Part 2</title>
+    <slug>StrecthCalcPart2</slug>
+    <url>https://checkit.clontz.org</url>
+    <outcomes>
+        <outcome>
+            <title>Limits of special transcendental functions</title>
+            <slug>LSTr</slug>
+            <path>outcomes/LSTr</path>
+            <description>
+I can compute limits of special transcendental functions.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Limits with L'Hôpital's Rule</title>
+            <slug>LLH</slug>
+            <path>outcomes/LLH</path>
+            <description>
+I can compute limits using L'Hôpital's Rule when the initial form is indeterminate of type 0/0 or ∞/∞.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Limits: Synthesis</title>
+            <slug>LSy</slug>
+            <path>outcomes/LSy</path>
+            <description>
+I can compute single-variable limits.
+            </description>
+        </outcome>
+        <outcome>
+            <title>The definition of derivative</title>
+            <slug>DDfn2</slug>
+            <path>outcomes/DDfn2</path>
+            <description>
+I can use the definition of the derivative as a limit and knowledge of special transcendental functions to compute derivatives of sin(x) and cos(x).
+            </description>
+        </outcome>
+        <outcome>
+            <title>Derivatives of trigonometric functions</title>
+            <slug>DTrg</slug>
+            <path>outcomes/DTrg</path>
+            <description>
+I can use the quotient rule and knowledge of sin(x) and cos(x) to compute derivatives of sec(x), csc(x), tan(x), and cot(x).
+            </description>
+        </outcome>
+        <outcome>
+            <title>Implicit derivatives</title>
+            <slug>DImp</slug>
+            <path>outcomes/DImp</path>
+            <description>
+I can compute implicit derivatives.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Identify and apply derivative rules</title>
+            <slug>DIAR2</slug>
+            <path>outcomes/DIAR2</path>
+            <description>
+I can identify which differentiation rule(s) need to be applied (in order); moreover, I can apply the rules to compute the derivative.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Related rates</title>
+            <slug>DRR</slug>
+            <path>outcomes/DRR</path>
+            <description>
+I can solve related rates problems.
+            </description>
+        </outcome>
+        <outcome>
+            <title>First derivatives and sign charts</title>
+            <slug>DSC1.1</slug>
+            <path>outcomes/DSC1.1</path>
+            <description>
+I can make a *sign chart* for the first derivative and use it to (1) find where a function is increasing/decreasing, and (2) classify *critical points*. In other words, I can perform a **first derivative test**.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Second derivatives and sign charts</title>
+            <slug>DSC2.1</slug>
+            <path>outcomes/DSC2.1</path>
+            <description>
+I can make a *sign chart* for the second derivative and use it to (1) find where a function is concave up/down, and (2) locate points of inflection.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Optimization</title>
+            <slug>DOpt</slug>
+            <path>outcomes/DOpt</path>
+            <description>
+I can solve optimization problems using knowledge of differentiation.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Basic indefinite integrals: power rule and special functions</title>
+            <slug>IIP</slug>
+            <path>outcomes/IIP</path>
+            <description>
+I can compute antiderivatives (aka general indefinite integrals) for linear combinations of power functions and functions which I recognize as a derivative of a special function.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Indefinite integrals via substitution</title>
+            <slug>IIS</slug>
+            <path>outcomes/IIS</path>
+            <description>
+I can compute indefinite integrals with the substitution method.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Integration and motion</title>
+            <slug>IPh</slug>
+            <path>outcomes/IPh</path>
+            <description>
+I can solve physics problems involving motion of objects along a straight line.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Definite integrals and the Fundamental Theorem of Calculus</title>
+            <slug>IFTC</slug>
+            <path>outcomes/IFTC</path>
+            <description>
+I can compute definite integrals using the Fundamental Theorem of Calculus.
+            </description>
+        </outcome>
+    </outcomes>
+</bank>
