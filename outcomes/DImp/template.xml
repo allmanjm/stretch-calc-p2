@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <content>
-        <p>Coming soon.</p>
+        <p>Consider the curve in the <m>xy</m>-plane which
+        is cut out by the given equation.</p>
+        <p><m mode = "display">
+        {{lhs}} = {{rhs}}.
+        </m></p>
+        <p>Compute an expression for <m>\frac{dy}{dx}</m>
+        (aka <m>y'</m>) for points on this curve.</p>
     </content>
     <outtro>
-        <p>Coming soon.</p>
+        <p><m> \displaystyle y' = \frac{dy}{dx} 
+        = {{result}}</m>.</p>
     </outtro>
 </knowl>
