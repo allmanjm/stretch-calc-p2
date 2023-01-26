@@ -1,11 +1,21 @@
 class Generator(BaseGenerator):
     def data(self):
-        x = var('x')
-        a = randrange(-9,10)
-        b = randrange(-9,10)
-        p = randrange(2,6)
+        x = var('x');
+        a = randrange(1,41)*choice([-1,1]);
+        b = randrange(1,10)*choice([-1,1]);
+        c = randrange(-9,10);
+
+        power = randrange(2,12);
+        z = randrange(2,10);
+
+        f = choice([(x)^power,exp(x),sin(x),cos(x),sec(x)*tan(x),csc(x)*cot(x),1/x]);
+        g = choice([x^2+z^2,exp(x),sin(x),cos(x),b*x+c,arctan(x)]);
+
+        dg = derivative(g,x);
+
+        
 
         return {
-            "sum": (a*x^p).add(b*x^p,hold=True),
-            "result": (a+b)*x^p,
+            "integrand": a*dg*(f.subs(x==g)),
+            "result": integral(a*f,x).subs(x==g),
         }
