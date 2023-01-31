@@ -1,9 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <content>
-        <p>Coming soon.</p>
-    </content>
-    <outtro>
-        <p>Coming soon.</p>
-    </outtro>
+    <intro>
+        <p>For each of the following, compute the derivative <m>y'</m>. 
+        In your solution, whenever you use 
+        the product rule, quotient rule, and/or chain rule,
+        state which rule you are using.</p>
+        <p>*Note* Any occurrence of the logarithm function,
+        <m> \log(u) </m>, should be interpreted to be the 
+        natural logarithm, <m> \ln(u) </m>.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p><m> \displaystyle y = \left( {{p1}} \right) \, {{t1}}  </m></p>
+        </content>
+        <outtro>
+            <p><m> \displaystyle y' = {{d1}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m> \displaystyle y = \frac{ {{A}} }{ {{b}} + e^{-x/{{r}}} }  </m></p>
+        </content>
+        <outtro>
+            <p><m> \displaystyle y' = {{d2}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m> \displaystyle y = {{f3str}} \left( {{inside}} \right)  </m></p>
+        </content>
+        <outtro>
+            <p><m> \displaystyle y' = {{d3}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m> \displaystyle y = {{power}} {{t4}} </m></p>
+        </content>
+        <outtro>
+            <p><m> \displaystyle y' = {{d4}}</m></p>
+        </outtro>
+    </knowl>
 </knowl>
