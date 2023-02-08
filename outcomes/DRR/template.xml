@@ -1,9 +1,73 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <content>
-        <p>Coming soon.</p>
-    </content>
-    <outtro>
-        <p>Coming soon.</p>
-    </outtro>
+
+    <!-- {{#ladder}} -->
+
+            <content>
+                <p>
+                    Suppose a ladder of length <m>{{ladderlength}}</m> ft is leaning against a wall.  Then the base of the ladder is pulled away from the wall at a rate of <m>{{velocityx}}</m> feet/second.  What is the velocity of the top of the ladder when the base of the ladder is <m>{{distancex}}</m> feet away from the wall?
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>-\frac{ {{numerator}} }{ {{distancey}} }\approx {{velyround}}</m> feet/second.
+                </p>
+            </outtro>
+
+    <!-- {{/ladder}} -->
+
+
+    <!-- {{#oilslick}} -->
+
+            <content>
+                <p>
+                    Suppose an oil spill in the ocean formed a circle and was growing at a rate of <m>{{dadt}}</m> feet<m>^2/</m>minute.  When the oil slick reaches a radius of <m>{{radius}}</m>, how fast is the radius of the oil spill growing?
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>\frac{ {{dadt}} }{ {{denomoil}} }\approx {{drdtround}}</m> feet/minute.
+                </p>
+            </outtro>
+
+    <!-- {{/oilslick}} -->
+
+
+    <!-- {{#shadow}} -->
+
+            <content>
+                <p>
+                    Suppose a person who was <m> {{heightperson}} </m> feet tall was standing between a light on the ground and a wall.  Initially, they are <m>{{disttolight}}</m> feet away from the light and <m>{{disttowall}}</m> feet away from the wall.  If they start walking torwards the {{persondirection}} at a speed of <m>{{personspeed}}</m> feet/second, how fast would the height of the shadow they cast change and in what direction?
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m>{{dHdtround}}</m> feet/second {{shadowdirection}}.
+                </p>
+            </outtro>
+
+    <!-- {{/shadow}} -->
+
+    <!-- {{#rocket}} -->
+
+            <content>
+                <p>
+                    Suppose that a television camera is filming a rocket and that 
+                    the camera is located on the ground <m> {{X}} </m> miles from the launchpad.
+                    The camera must remain locked onto the rocket in the center of its shot, and therefore,
+                    the angle of elevation for the camera's line-of-sight must increase as the rocket travels. 
+                    If the speed of the rocket is <m> {{dhdt}} </m> miles per second, 
+                    how fast is the angle of elevation for the camera's line-of-sight increasing 
+                    when the rocket's height is <m> {{h}} </m> miles. 
+                    Give your answer in degrees per second and round to 3 decimal places.
+                </p>
+            </content>
+            <outtro>
+                <p>
+                    <m> \approx {{dThetadt}} </m> degrees/sec.
+                </p>
+            </outtro>
+
+    <!-- {{/rocket}} -->
+
 </knowl>
