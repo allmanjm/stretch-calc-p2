@@ -1,9 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <content>
-        <p>Coming soon.</p>
-    </content>
-    <outtro>
-        <p>Coming soon.</p>
-    </outtro>
+    <intro>
+        <p>Explain your logic and/or computations when evaluating each limit below, or 
+        justify why the limit does not exist.</p>
+        <p>*Note* Any occurence of <m>\log(u)</m> should be 
+        interpreted as the natural logarithm, <m>\ln(u)</m>.</p>
+    </intro>
+    <knowl>
+        <content>
+            <p><m>\displaystyle \lim_{x\to {{a1}} } {{f1}}</m></p>
+        </content>
+        <outtro>
+            <p><m>\displaystyle {{L1}} </m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m>\displaystyle \lim_{x\to {{a2}} } {{f2}}</m></p>
+        </content>
+        <outtro>
+            <p><m>\displaystyle {{L2}} </m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m>\displaystyle \lim_{x\to {{a3}} } {{f3}}</m></p>
+        </content>
+        <outtro>
+            <p><m>\displaystyle {{L3}} </m></p>
+        </outtro>
+    </knowl>
 </knowl>
