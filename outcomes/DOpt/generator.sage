@@ -34,5 +34,6 @@ class Generator(BaseGenerator):
                 scenario: True,
                 "c":c,
                 "V0":V0,
+                "topQ": topQ,
                 "Amin": (c*V0*(eps+1)^2/(c+1)^2)^(1/3),
             }
