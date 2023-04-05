@@ -17,17 +17,25 @@ class Generator(BaseGenerator):
         sC = s0-G.subs(t==0)
         s = G + sC
 
-        if abs(-vC/a)>1:
-            ans2 = "does not exist"
-        elif f==sin(t):
-            tstar=t.subs(solve(v==0,t)[0])
-            ans2 = "is approximately "+str(round(tstar,2))
+        if f==cos(t):
+            disc = -vC/a
         else:
-            tstar=t.subs(solve(v==0,t)[0])
-            if round(tstar,2)<0:
-                ans2 = "is approximately "+str(round(tstar+pi,2))
+            disc = -vC/(-a)
+
+        if abs(disc)>1:
+            ans2 = "does not exist"
+        elif disc==0 and f==cos(t):
+            ans2 = "is approximately " + str(round(pi,2))
+        elif disc==0 and f==sin(t):
+            ans2 = "is approximately " + str(round(pi/2,2))
+        else:
+            if disc<0 and f==cos(t):
+                ans2="is approximately " + str(round((v==0).find_root(pi,3*pi/2),2))
+            elif disc<0 and f==sin(t):
+                ans2="is approximately " + str(round((v==0).find_root(pi/2,pi),2))
             else:
-                ans2 = "is approximately "+str(round(tstar,2))
+                ans2="is approximately " + str(round((v==0).find_root(0,pi/2),2))
+            
 
 
 
