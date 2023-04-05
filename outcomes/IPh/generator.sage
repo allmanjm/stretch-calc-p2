@@ -28,6 +28,14 @@ class Generator(BaseGenerator):
             ans2 = "is approximately " + str(round(pi,2))
         elif disc==0 and f==sin(t):
             ans2 = "is approximately " + str(round(pi/2,2))
+        elif disc==1 and f==cos(t):
+            ans2 = "is approximately " + str(round(pi/2,2))
+        elif disc==1 and f==sin(t):
+            ans2 = "is approximately " + str(round(2*pi,2))
+        elif disc==-1 and f==cos(t):
+            ans2 = "is approximately " + str(round(3*pi/2,2))
+        elif disc==-1 and f==sin(t):
+            ans2 = "is approximately " + str(round(pi,2))
         else:
             if disc<0 and f==cos(t):
                 ans2="is approximately " + str(round((v==0).find_root(pi,3*pi/2),2))
