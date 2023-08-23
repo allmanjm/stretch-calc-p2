@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
-    <intro>
+    <content>
     <p>Suppose that a particle moves along a straight line
         with an acceleration (in m/s<m>^2</m>) given by the function
         <m mode="display">
             a(t) = {{acc}}.
         </m>
         Let <m>v(t)</m> and <m>s(t)</m> denote the velocity (in m/s) 
-        and position (in m), respectively.</p>
-    </intro>
-    <knowl>
-    <content>
-        <p>If</p>
+        and position (in m), respectively. If</p>
         <list>
         <item><p> <m>v(0) = {{val1}}</m>, and </p></item>
         <item><p> <m>s(0) = {{val2}}</m>, </p></item>
@@ -23,17 +19,4 @@
         <p><m mode="display"> v(t) = {{v}} </m></p>
         <p><m mode="display"> s(t) = {{s}} </m></p>        
     </outtro>
-    </knowl>
-    <knowl>
-    <content>
-        <p>Find the smallest positive value for <m>t</m> 
-        for which the object is "at rest" (aka, has 
-        zero velocity). You may round your answers to 2 
-        decimal places. If no such value exists, explain why.
-        </p>
-    </content>
-    <outtro>
-        <p>The desired <m>t</m> {{ans2}}.</p>
-    </outtro>
-    </knowl>
 </knowl>
