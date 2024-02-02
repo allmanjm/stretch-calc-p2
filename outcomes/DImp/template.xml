@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
     <content>
         <p>Consider the curve in the <m>xy</m>-plane which
         is cut out by the given equation.</p>
@@ -13,4 +14,42 @@
         <p><m> \displaystyle y' = \frac{dy}{dx} 
         = {{result}}</m>.</p>
     </outtro>
+    </knowl>
+    <knowl>
+        <knowl>
+        <content>
+        <p>Consider the curve in the <m>xy</m>-plane which
+        is cut out by the given equation.</p>
+        <p><m mode = "display">
+        {{A}} y^2 = \left( {{rhs2_factor1}} \right)\left( {{rhs2_factor2}} \right).
+        </m></p>
+        <p>Compute an expression for <m>\frac{dy}{dx}</m>
+        (aka <m>y'</m>) for points on this curve.</p>
+        </content>
+        <outtro>
+        <p><m> \displaystyle y' = \frac{dy}{dx} 
+        = {{result2}}</m>.</p>
+        </outtro>
+        </knowl>
+        <knowl>
+        <content>
+        <p>Use your answer to the previous task to</p>
+            <list>
+            <item><p>verify that the point <m> ({{xstar}},{{ystar}})</m> 
+            is on the given curve, and</p></item>
+            <item><p>compute the equation of the tangent line
+            to the given curve at the point 
+            <m> ({{xstar}},{{ystar}}) </m>.</p></item>
+            </list>
+        </content>
+        <outtro>
+            <list>
+            <item><p>Plug <m> ({{xstar}},{{ystar}}) </m> into the given equation 
+            and verify that the statement holds.</p></item>
+            <item><p>The desired tangent line has the equation 
+            <m mode="display"> y = {{ystar}} + {{m2}}\left( x-{{xstar}} \right) .</m></p></item>
+            </list>
+        </outtro>
+        </knowl>
+    </knowl>
 </knowl>

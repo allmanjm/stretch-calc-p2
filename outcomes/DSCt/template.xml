@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>For the function below, make a sign chart for its 
+        first derivative and use it to</p>
+            <list>
+                <item><p>find the intervals where the 
+                function is increasing / decreasing 
+                (give your answer in interval notation);</p></item>
+                <item><p>classify each critical point as 
+                a local maximum, local minimum, or neither.</p></item>
+            </list>
+        <p><m mode = "display"> 
+        f(x) = \left( {{poly}} \right) e^{ {{exponent}} }
+        </m></p>
+    </content>
+    <outtro>
+        <p>The derivative is
+        <m mode="display">
+            f'(x) = {{deriv}}
+        </m> 
+        </p>
+        <p>and the corresponding sign chart is</p>
+        <p><image
+            source = "assets/DSCt/generated/{{__seed__}}/Show1.png"
+            description = "a sign chart for the first derivative of f"
+            />
+        </p>
+        <p>Warning: Unless <m>x=0</m> is a critical point, 
+        you should ignore the unlabeled tickmark at <m>x=0</m> in the 
+        automatically generated sign chart.</p>
+    </outtro>
+</knowl>

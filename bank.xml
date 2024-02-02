@@ -5,35 +5,27 @@
     <url>https://checkit.clontz.org</url>
     <outcomes>
         <outcome>
-            <title>Limits of special transcendental functions</title>
-            <slug>LSTr</slug>
-            <path>outcomes/LSTr</path>
-            <description>
-I can compute limits of special transcendental functions.
-            </description>
-        </outcome>
-        <outcome>
             <title>Limits with L'Hôpital's Rule</title>
-            <slug>LLH</slug>
-            <path>outcomes/LLH</path>
+            <slug>LLHR</slug>
+            <path>outcomes/LLHR</path>
             <description>
 I can compute limits using L'Hôpital's Rule when the initial form is indeterminate of type 0/0 or ∞/∞.
             </description>
         </outcome>
         <outcome>
-            <title>Limits: Synthesis</title>
-            <slug>LSy</slug>
-            <path>outcomes/LSy</path>
+            <title>Limits: All</title>
+            <slug>LAll</slug>
+            <path>outcomes/LAll</path>
             <description>
 I can compute single-variable limits.
             </description>
         </outcome>
         <outcome>
             <title>The definition of derivative</title>
-            <slug>DDfn2</slug>
-            <path>outcomes/DDfn2</path>
+            <slug>Ddfn</slug>
+            <path>outcomes/Ddfn</path>
             <description>
-I can use the definition of the derivative as a limit and knowledge of special transcendental functions to compute derivatives of sin(x) and cos(x).
+I can use the definition of the derivative as a limit and knowledge of special transcendental functions to compute derivatives of common transcendental functions.
             </description>
         </outcome>
         <outcome>
@@ -49,39 +41,31 @@ I can use the quotient rule and knowledge of sin(x) and cos(x) to compute deriva
             <slug>DImp</slug>
             <path>outcomes/DImp</path>
             <description>
-I can compute implicit derivatives.
+I can compute and interpret implicit derivatives.
             </description>
         </outcome>
         <outcome>
             <title>Identify and apply derivative rules</title>
-            <slug>DIAR2</slug>
-            <path>outcomes/DIAR2</path>
+            <slug>DAll</slug>
+            <path>outcomes/DAll</path>
             <description>
 I can identify which differentiation rule(s) need to be applied (in order); moreover, I can apply the rules to compute the derivative.
             </description>
         </outcome>
         <outcome>
             <title>Related rates</title>
-            <slug>DRR</slug>
-            <path>outcomes/DRR</path>
+            <slug>DRRt</slug>
+            <path>outcomes/DRRt</path>
             <description>
 I can solve related rates problems.
             </description>
         </outcome>
         <outcome>
             <title>First derivatives and sign charts</title>
-            <slug>DSC1.1</slug>
-            <path>outcomes/DSC1.1</path>
+            <slug>DSCt</slug>
+            <path>outcomes/DSCt</path>
             <description>
 I can make a *sign chart* for the first derivative and use it to (1) find where a function is increasing/decreasing, and (2) classify *critical points*. In other words, I can perform a **first derivative test**.
-            </description>
-        </outcome>
-        <outcome>
-            <title>Second derivatives and sign charts</title>
-            <slug>DSC2.1</slug>
-            <path>outcomes/DSC2.1</path>
-            <description>
-I can make a *sign chart* for the second derivative and use it to (1) find where a function is concave up/down, and (2) locate points of inflection.
             </description>
         </outcome>
         <outcome>
@@ -94,32 +78,40 @@ I can solve optimization problems using knowledge of differentiation.
         </outcome>
         <outcome>
             <title>Basic indefinite integrals: power rule and special functions</title>
-            <slug>IIP</slug>
-            <path>outcomes/IIP</path>
+            <slug>IPRS</slug>
+            <path>outcomes/IPRS</path>
             <description>
 I can compute antiderivatives (aka general indefinite integrals) for linear combinations of power functions and functions which I recognize as a derivative of a special function.
             </description>
         </outcome>
         <outcome>
             <title>Indefinite integrals via substitution</title>
-            <slug>IIS</slug>
-            <path>outcomes/IIS</path>
+            <slug>ISub</slug>
+            <path>outcomes/ISub</path>
             <description>
 I can compute indefinite integrals with the substitution method.
             </description>
         </outcome>
         <outcome>
             <title>Integration and motion</title>
-            <slug>IPh</slug>
-            <path>outcomes/IPh</path>
+            <slug>IPhy</slug>
+            <path>outcomes/IPhy</path>
             <description>
 I can solve physics problems involving motion of objects along a straight line.
             </description>
         </outcome>
         <outcome>
-            <title>Definite integrals and the Fundamental Theorem of Calculus</title>
-            <slug>IFTC</slug>
-            <path>outcomes/IFTC</path>
+            <title>Fundamental Theorem of Calculus, Part I</title>
+            <slug>IFT1</slug>
+            <path>outcomes/IFT1</path>
+            <description>
+I can compute derivatives of area functionals using the Fundamental Theorem of Calculus.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Fundamental Theorem of Calculus, Part II</title>
+            <slug>IFT2</slug>
+            <path>outcomes/IFT2</path>
             <description>
 I can compute definite integrals using the Fundamental Theorem of Calculus.
             </description>

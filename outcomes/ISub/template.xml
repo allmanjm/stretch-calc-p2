@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p>Compute the following indefinite integral. 
+        Clearly explain and demonstrate how you have used 
+        any substitutions that you make.</p>
+        <p><m>\displaystyle \int {{integrand}}\,dx</m></p>
+    </content>
+    <outtro>
+        <p><m>\displaystyle {{result}} + C</m></p>
+        <p>Note: Any occurence of <m>\log</m> in the answer above should be interpreted 
+        as the natural logarithm; i.e., <m>\log = \ln</m>.
+        Further, occurence of <m>\sin</m> or respectively <m>\cos</m> in a 
+        denominator could be rewritten as <m>\csc</m>  or respectively 
+        <m>\sec</m> in a numerator.</p>
+    </outtro>
+</knowl>

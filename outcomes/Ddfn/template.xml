@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <knowl>
+    <knowl>
+        <content>
+            <p>Sketch graphs to compute the limits below. 
+            You may use graphing software (i.e., Desmos).</p>
+            <list>
+                <item><p><m mode="display">
+                    \lim_{ h \to 0 } \frac{ {{L1_num}} }{ h }
+                </m></p></item>
+                <item><p><m mode="display">
+                    \lim_{ h \to 0 } \frac{ {{L2_num}} }{ h }
+                </m></p></item>
+            </list>
+        </content>
+        <outtro>
+            <list>
+                <item><p><m>{{L1}}</m></p></item>
+                <item><p><m>{{L2}}</m></p></item>
+            </list>
+        </outtro>
+    </knowl>
+    <knowl>
+    <content>
+        <p>Let <m>f(x) = {{f}}</m>. 
+        Use the definition of the derivative as a limit 
+        and your knowledge of some special trigonometric limits 
+        from the previous task to prove that</p>
+        <p><m mode="display">
+            f'(x) = {{df}}
+        </m></p>
+    </content>
+    <outtro>
+        <p><m mode="display">
+        f'(x) = \lim_{h \to 0} \frac{ f(x+h) - f(x) }{h} 
+        = [\text{ ... insert your proof here ... }] = {{df}}
+        </m></p>
+    </outtro>
+    </knowl>
+    </knowl>
+    <knowl>
+    <knowl>
+        <content>
+            <p>Use a calculator and a table of values to approximate the value 
+            of the limit below to three decimal places. Hint: 
+            since the limit is "two-sided", make sure your table accounts for 
+            <m>h \to 0^+</m> and <m>h \to 0^-</m>.</p>
+            <p><m mode="display">
+                \lim_{ h \to 0 } \frac{ \left( {{b}} \right)^{ h } - 1 }{ h }
+            </m></p>
+        </content>
+        <outtro>
+            <p><m>{{L3}}</m></p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p>Let <m>g(x) = {{g}}</m>. 
+            Use the definition of the derivative as a limit 
+            and your knowledge of some special trigonometric limits 
+            (involving the number <m>e</m>) to prove that</p>
+            <p><m mode="display">
+            g'(x) = {{dg}}
+            </m></p>
+        </content>
+        <outtro>
+            <p><m mode="display">
+            g'(x) = \lim_{h \to 0} \frac{ g(x+h) - g(x) }{h} 
+            = [\text{ ... insert your proof here ... }] = {{dg}}
+            </m></p>
+        </outtro>
+    </knowl>
+    </knowl>
+</knowl>
