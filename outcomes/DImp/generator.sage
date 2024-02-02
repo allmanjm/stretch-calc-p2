@@ -7,8 +7,9 @@ class Generator(BaseGenerator):
 
         a = randrange(1,41)*choice([-1,1]);
         b = randrange(1,10)*choice([-1,1]);
-        p = randrange(1,12);
-        q = randrange(1,12);
+        pq = sample(range(1,12),2);
+        p = pq[0];
+        q = pq[1];
 
         sce = choice([sin(x*z),cos(x*z),exp(x*z)]);
 
