@@ -1,47 +1,43 @@
 class Generator(BaseGenerator):
     def data(self):
-        x = var('x')
+        x,t = var('x,t')
 
-        # build I1 (needs power rule and adding fractions)
-        coeffs=sample(range(-11,12),4);
-        powers=[QQ(randrange(9)/randrange(1,4)) for i in range(4)];
-        F1=sum([coeffs[i]*x^(powers[i]) for i in range(4)]);
-        f1=derivative(F1,x);
-        a1=0;
-        b1=1;
-        ans1=F1.subs(x==1)-F1.subs(x==0);
+        # build I1 
+        a1=randrange(-15,15);
+        f1(t) = choice([cos(randrange(1,7)*t),sin(randrange(1,7)*t),arctan(randrange(1,7)*t),(t^randrange(1,5)+randrange(1,8))^randrange(2,5),e^(choice([-1,1])*randrange(2,9)*t)]);
         
-        # build I2 (needs a substitution)
-        A=randrange(1,4);
-        B=randrange(1,3)^2;
-        C=randrange(1,5)*choice([-1,1]);
-        p=randrange(1,3);
-        F2=C*(A*x^2+B)^(-p);
-        f2=derivative(F2,x);
-        loi=sample(range(-4,5),2);
-        a2help=min(loi);
-        b2=max(loi);
-        if a2help+b2==0:
-            a2=a2help-1;
-        else:
-            a2=a2help;
-        ans2=F2.subs(x==b2)-F2.subs(x==a2)
+        # build I2
+        a2=randrange(-15,15);
+        f2(t) = choice([cos(randrange(1,7)*t),sin(randrange(1,7)*t),arctan(randrange(1,7)*t),(t^randrange(1,5)+randrange(1,8))^randrange(2,5),e^(choice([-1,1])*randrange(2,9)*t)]);
+        g2(x) = choice([cos(x),sin(x),e^x,x^2+randrange(-5,5)*x+randrange(-5,5),arctan(x)])
+
+        #build I3
+        b3=randrange(-15,15);
+        f3(t) = choice([cos(randrange(1,7)*t),sin(randrange(1,7)*t),arctan(randrange(1,7)*t),(t^randrange(1,5)+randrange(1,8))^randrange(2,5),e^(choice([-1,1])*randrange(2,9)*t)]);
+        g3(x) = choice([cos(x),sin(x),e^x,x^2+randrange(-5,5)*x+randrange(-5,5),arctan(x)])
+
+        #build I4
+        f4(t) = choice([cos(randrange(1,7)*t),sin(randrange(1,7)*t),arctan(randrange(1,7)*t),(t^randrange(1,5)+randrange(1,8))^randrange(2,5),e^(choice([-1,1])*randrange(2,9)*t)]);
+        g4_list = sample([cos(x),sin(x),e^x,x^2+randrange(-5,5)*x+randrange(-5,5),arctan(x)],2);
+
 
         
-
-        I1 = [f1,a1,b1,ans1]
-        I2 = [f2,a2,b2,ans2]
         
-        
-        DefInts = sample([I1,I2],2);
-
         return {
-            "a1": DefInts[0][1],
-            "b1": DefInts[0][2],
-            "int1": DefInts[0][0],
-            "a2": DefInts[1][1],
-            "b2": DefInts[1][2],
-            "int2": DefInts[1][0],
-            "ans1": DefInts[0][3],
-            "ans2": DefInts[1][3],
+            "a1": a1,
+            "b1": x,
+            "int1": f1(t),
+            "ans1": f1(x),
+            "a2": a2,
+            "b2": g2(x),
+            "int2": f2(t),
+            "ans2": derivative(g2(x),x)*f2(g2(x)),
+            "a3": g3(x),
+            "b3": b3,
+            "int3": f3(t),
+            "ans3": -derivative(g3(x),x)*f3(g3(x)),
+            "a4": g4_list[0],
+            "b4": g4_list[1],
+            "int4": f4(t),
+            "ans4": derivative(g4_list[1],x)*f4(g4_list[1])-derivative(g4_list[0],x)*f4(g4_list[0]),
         }

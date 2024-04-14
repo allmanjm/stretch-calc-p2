@@ -1,6 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
-    <p>Under construction.</p>
-    </intro>    
+    <p>Compute the derivatives for each of the following functions 
+    defined by integrals.</p>
+    </intro>  
+    <knowl>
+        <content>
+        <p>
+        <m> \displaystyle A(x) = \int_{ {{a1}} }^{ {{b1}} } {{int1}} \, dt </m>
+        </p>
+        </content> 
+        <outtro>
+        <p>
+        <m> \displaystyle A'(x) = {{ans1}}</m>
+        </p>
+        </outtro>
+    </knowl> 
+    <knowl>
+        <content>
+        <p>
+        <m> \displaystyle W(x) = \int_{ {{a2}} }^{ {{b2}} } {{int2}} \, dt </m>
+        </p>
+        </content> 
+        <outtro>
+        <p>
+        <m> \displaystyle W'(x) = {{ans2}}</m>
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+        <p>
+        <m> \displaystyle V(x) = \int_{ {{a3}} }^{ {{b3}} } {{int3}} \, dt </m>
+        </p>
+        </content> 
+        <outtro>
+        <p>
+        <m> \displaystyle V'(x) = {{ans3}}</m>
+        </p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+        <p>
+        <m> \displaystyle R(x) = \int_{ {{a4}} }^{ {{b4}} } {{int4}} \, dt </m>
+        </p>
+        </content> 
+        <outtro>
+        <p>
+        <m> \displaystyle R'(x) = {{ans4}}</m>
+        </p>
+        </outtro>
+    </knowl>
 </knowl>

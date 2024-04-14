@@ -18,7 +18,7 @@
             </content>
             <outtro>
                 <p>
-                    <m>{{Vmax}}</m> cubic inches
+                    <m>{{Vmax}} \approx {{Vmax_approx}} </m> cubic inches
                 </p>
             </outtro>
 
@@ -44,7 +44,7 @@
             </content>
             <outtro>
                 <p>
-                    <m>{{Amin}} </m> feet<m>^2</m>
+                    <m>{{Amin}} \approx {{Amin_approx}} </m> feet<m>^2</m>
                 </p>
             </outtro>
 

@@ -18,6 +18,7 @@ class Generator(BaseGenerator):
                 "A": A,
                 "topQ": topQ,
                 "Vmax": xcrit^2*ycrit,
+                "Vmax_approx": round(xcrit^2*ycrit,2),
             }
 
 
@@ -39,4 +40,5 @@ class Generator(BaseGenerator):
                 "V0":V0,
                 "topQ": topQ,
                 "Amin": V0*(2*c+2)/(c*bcrit)+c*(eps+1)*bcrit^2,
+                "Amin_approx": round(V0*(2*c+2)/(c*bcrit)+c*(eps+1)*bcrit^2,2),
             }

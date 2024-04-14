@@ -37,7 +37,15 @@
 
             <content>
                 <p>
-                    Suppose a person who was <m> {{heightperson}} </m> feet tall was standing between a light on the ground and a wall.  Initially, they are <m>{{disttolight}}</m> feet away from the light and <m>{{disttowall}}</m> feet away from the wall.  If they start walking torwards the {{persondirection}} at a speed of <m>{{personspeed}}</m> feet/second, how fast would the height of the shadow they cast change and in what direction?
+                    Suppose a person who was <m> {{heightperson}} </m> feet tall 
+                    was standing between a light on the ground and a wall.  
+                    Initially, they are <m>{{disttolight}}</m> feet away from the 
+                    light and <m>{{disttowall}}</m> feet away from the wall.  
+                    If they start walking torwards the {{persondirection}} 
+                    at a speed of <m>{{personspeed}}</m> feet/second, 
+                    how fast would the height of the shadow they cast be changing 
+                    (at the initial instant they begin walking)
+                    and in what direction?
                 </p>
             </content>
             <outtro>
