@@ -1,30 +1,36 @@
 class Generator(BaseGenerator):
     def data(self):
-        x,t,h = var('x,t,h')
-
-        # task1
-        v1 = choice([x,t,h]);
-        L1_num = sin(v1);
-        L1 = 1;
-
-        v2 = choice([x,t,h]);
-        L2_num = choice([cos(v2)-1,1-cos(v2)]);
-        L2 = 0;
+        x = var('x')
+        
+        #polynomial integral from 0 to 1
+        poly_coeff = sample(range(-9,10),3);
+        poly = sum([QQ(poly_coeff[i]/randrange(1,5))*x^(i+1) for i in range(3)]);
+        
+        Ipoly = [poly,0,1,integral(poly,x,0,1)];
 
 
-        # task2
-        b = choice([w/5 for w in range(1,101) if w % 5 != 0]);
-        L3 = round(n(log(b)),3);
+
+        #substitution required
+        outside(x) = choice([x^choice([3/2,2/3]),exp(x)]);
+        p = choice([2,3]);
+        inside = x^p + randrange(1,4);
+        subf = choice([-1,1])*randrange(1,8)*x^(p-1)*outside(inside);
+        a = choice([0,1]);
+        b = choice([2,3]);
+        Isub = [subf,a,b,integral(subf,x,a,b)];
+
+        
+        which_one = sample([Ipoly,Isub],2);
 
 
 
         return {
-            "v1": v1,
-            "v2": v2,
-            "L1_num": L1_num,
-            "L2_num": L2_num,
-            "b": b,
-            "L1": L1,
-            "L2": L2,
-            "L3": L3,
+            "f1": which_one[0][0],
+            "a1": which_one[0][1],
+            "b1": which_one[0][2],
+            "ans1": which_one[0][3],
+            "f2": which_one[1][0],
+            "a2": which_one[1][1],
+            "b2": which_one[1][2],
+            "ans2": which_one[1][3],
         }

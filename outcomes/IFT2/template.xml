@@ -1,6 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
     <intro>
-    <p>Under construction.</p>
+    <p>Compute each of the following. 
+    Set up an appropriate definite integral, and write it down explicitly. 
+    If you need to use the power rule to compute an antiderivative, say so, 
+    and make your use of the power rule obvious. 
+    Further, if you need to perform a substitution to compute an antiderivative,
+    write down your choice of substitution explicitly, 
+    and explain/show how your substitution leads to a correct answer.</p>
     </intro>
+    <knowl>
+        <content>
+        <p>Sketch and compute the net area in the <m>xy</m>-plane 
+        between the graph of <m>y={{f1}}</m> and the <m>x</m>-axis
+        on the interval between <m>x={{a1}}</m> and <m>x={{b1}}</m>.</p>
+        </content>
+        <outtro>
+        <p>The area is <m>{{ans1}}</m>.</p>
+        </outtro>
+    </knowl>
+     <knowl>
+        <content>
+        <p>Sketch and compute the net area in the <m>xy</m>-plane 
+        between the graph of <m>y={{f2}}</m> and the <m>x</m>-axis
+        on the interval between <m>x={{a2}}</m> and <m>x={{b2}}</m>.</p>
+        </content>
+        <outtro>
+        <p>The area is <m>{{ans2}}</m>.</p>
+        </outtro>
+    </knowl>
 </knowl>
