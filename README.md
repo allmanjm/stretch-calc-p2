@@ -45,9 +45,9 @@ I can solve related rates problems.
 
 I can make a *sign chart* for the first derivative and use it to (1) find where a function is increasing/decreasing, and (2) classify *critical points*. In other words, I can perform a **first derivative test**.
 
-###### DOpt. Optimization.
+###### DGrS. 
 
-I can solve optimization problems using knowledge of differentiation.
+I can sketch accurate graphs of functions $y=f(x)$ by using (1) information from the three sign charts for $f$, $f’$, and $f’’$ together with (2) information about the two limits of $f$ as $x\to\pm\infty$.
 
 ### I. Integration
 
