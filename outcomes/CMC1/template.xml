@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <content>
+        <p> Consider the function
+<m mode = "display"> f(x) = {{f}}.</m>
+
+For reference, the first and second derivatives for <m>f(x)</m> are given by
+the formulas below (you do not need to re-compute these).
+<m mode = "display"> f'(x) = {{df}} \quad f''(x) = {{ddf}}</m>
+
+Your task is to sketch a graph of <m>y = f(x)</m> in which you incorporate
+        </p>
+        <list> 
+            <item><p>correct sign charts for 
+            <m>f</m>, <m>f'</m>, and <m>f''</m>;</p></item>
+            <item><p>where the graph of <m>f(x)</m> is
+            positive/negative, increasing/decreasing, and concave up/down;</p></item>
+            <item><p>the value of the limits
+            <m> \displaystyle \lim_{x\to\pm\infty} f(x) </m>; and</p></item>
+            <item><p>appropriate use of the above data to identify and label all 
+            asymptotes (vertical and horizontal), zeroes, critical points, 
+            local extrema, and points of inflection.</p></item>   
+        </list>
+        <p>
+On your graph, 
+        </p>
+    </content>
+    <outtro>
+        <list>
+            <item>
+            <p>
+Sign chart for <m>f</m>:
+            <image
+                source = "assets/CMC1/generated/{{__seed__}}/sc0.png"
+                description = "Sign chart for f(x)"
+            />
+            </p>
+            <p>
+Sign chart for <m>f'</m>:
+            <image
+                source = "assets/CMC1/generated/{{__seed__}}/sc1.png"
+                description = "Sign chart for f'(x)"
+            />
+            </p>
+            <p>
+Sign chart for <m>f''</m>:
+            <image
+                source = "assets/CMC1/generated/{{__seed__}}/sc2.png"
+                description = "Sign chart for f''(x)"
+            />
+            </p>
+            <p>
+Warning: Labels on tick marks on auto-generated sign charts are 
+rounded to three significant digits (or are integers). Furthermore, 
+on all auto-generated sign charts, <m>x=0</m> appears as an 
+unlabeled tickmark. This is an artifact of the automatically 
+generating computer code, and happens whether or not <m>x=0</m> is, 
+in fact, a "special point" for that sign chart.
+            </p>
+            </item>
+            <item>
+            <p>
+<m>\displaystyle \lim_{x\to\pm\infty} f(x) = {{L}}</m>
+            </p>
+            </item>
+            <item>
+            <p>
+Graph of <m>f</m>:
+            </p>
+            <p>
+            <image
+                source = "assets/CMC1/generated/{{__seed__}}/graph.png"
+                description = "The graph of f (in red) with 
+                asymptotes (dotted lines in blue)
+                and special points (in purple)."
+            />
+            </p>
+            </item>
+        </list>
+    </outtro>
+</knowl>

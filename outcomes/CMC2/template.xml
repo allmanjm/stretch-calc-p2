@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<knowl mode="exercise" xmlns="https://spatext.clontz.org" version="0.2">
+    <intro>
+        <p>For the functions below</p>
+            <list>
+                <item><p>compute all critical points;</p></item>
+                <item><p>construct a sign chart for the first derivative; and</p></item>
+                <item><p>use the data from the first two bullet points 
+                to classify each critical point as
+                a local maximum, local minimum, nor neither.</p></item>
+            </list>
+    </intro>
+    <knowl>
+        <content>
+            <p><m mode="display"> f(x) = {{f}} </m></p>
+        </content>
+        <outtro>
+            <p>
+The derivative is <m mode = "display">f'(x) = {{f_prime}} </m> 
+and the corresponding sign chart for the derivative is 
+            </p>
+            <p><image
+                source="assets/CMC2/generated/{{__seed__}}/Show2.png"
+                description="the sign chart for g'(x)"
+            /></p>
+            <p>Warning:  <m>x=0</m> <em>is</em> a critical point, 
+            and there is an unlabeled tickmark at <m>x=0</m> 
+            in the automatically generated sign chart.</p>
+            <p>Recall that a critical point is a local 
+            max or min exactly when the sign switches
+            at the corresponding tickmark.</p>
+        </outtro>
+    </knowl>
+    <knowl>
+        <content>
+            <p><m mode = "display"> 
+            g(x) = \left( {{poly}} \right) e^{ {{exponent}} }
+            </m></p>
+        </content>
+        <outtro>
+            <p>The derivative is
+            <m mode="display">
+            g'(x) = {{deriv}}
+            </m> 
+            </p>
+            <p>and the corresponding sign chart is</p>
+            <p><image
+            source = "assets/CMC2/generated/{{__seed__}}/Show1.png"
+            description = "a sign chart for the first derivative of g"
+            />
+            </p>
+            <p>Warning: Unless <m>x=0</m> is a critical point, 
+            you should ignore the unlabeled tickmark at <m>x=0</m> in the 
+            automatically generated sign chart.</p>
+            <p>Recall that a critical point is a local 
+            max or min exactly when the sign switches
+            at the corresponding tickmark.</p>
+        </outtro>
+    </knowl>
+</knowl>

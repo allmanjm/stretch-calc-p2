@@ -119,5 +119,21 @@ I can compute derivatives of area functionals using the Fundamental Theorem of C
 I can compute definite integrals using the Fundamental Theorem of Calculus.
             </description>
         </outcome>
+        <outcome>
+            <title>Sketch a rational function</title>
+            <slug>CMC1</slug>
+            <path>outcomes/CMC1</path>
+            <description>
+I can sketch the graph of a rational function f using knowledge of f, f', and f''.
+            </description>
+        </outcome>
+        <outcome>
+            <title>Perform the first derivative test</title>
+            <slug>CMC2</slug>
+            <path>outcomes/CMC2</path>
+            <description>
+I can perform the first derivative test for local extrema on various types of functions.
+            </description>
+        </outcome>
     </outcomes>
 </bank>
