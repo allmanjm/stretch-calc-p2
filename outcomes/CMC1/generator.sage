@@ -2,10 +2,13 @@ class Generator(BaseGenerator):
     def data(self):
         x = var('x')
 
-        k = choice([1,2]);
+        k = choice([1,2,3]);
         c = randrange(1,10);
         A = randrange(1,3);
-        s = choice([1,-1]);
+        if k<3:
+            s = choice([-1,1]);
+        else:
+            s = -1;
 
         f(x)=A*x^k/(x^2+s*c^2);
 
