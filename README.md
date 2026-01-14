@@ -71,3 +71,12 @@ I can compute derivatives of area functionals using the Fundamental Theorem of C
 
 I can compute definite integrals using the Fundamental Theorem of Calculus.
 
+### CMC. Calculus Mastery Checkpoints
+
+###### CMC1. Sketch a Rational Function
+
+I can sketch the graph of a rational function f using knowledge of f, f', and f''.
+
+###### CMC2. Perform the first derivative test
+
+I can perform the first derivative test for local extrema on various types of functions.
